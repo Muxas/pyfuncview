@@ -77,12 +77,12 @@ DETAILED INFORMATION
 ####################
 
 After generating pyfuncview object with call:
-'''
+```
 from pyfuncview import pyfuncview as pfv
 fview = pfv(func, typesres, typeargs)
-'''
-'fview' object contains 3 properties: 'py_func', 'c_func', 'c_ptr'
+```
+`fview` object contains 3 properties: `py_func`, `c_func`, `c_ptr`
 
-'py_func' is Python-callable object
-'c_func' is ctypes CFunction object, that can be cast to ctypes pointer
-'c_ptr' is C pointer to call function from Cython or C code (saved as 'long long' integer)
+`py_func` is Python-callable object
+`c_func` is ctypes CFunction object, that can be cast to ctypes pointer
+`c_ptr` is C pointer to call function from Cython or C code (saved as `long long` integer)
