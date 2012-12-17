@@ -18,7 +18,7 @@ extensions = [pyfuncview]
 setup(
     name="pyfuncview",
     ext_modules=extensions,
-    py_modules = ['__init__']
+    py_modules = ['__init__'],
     cmdclass = {'build_ext': build_ext},
     version='1.0',
     description='Frame for mixed use of C, Cython and Python (based on ctypes)',
